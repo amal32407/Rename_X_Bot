@@ -33,10 +33,10 @@ async def doc(bot,update):
      new_filename = new_name.split(":-")[1]
      file_path = f"downloads/{new_filename}"
      file = update.message.reply_to_message
-     ms = await update.message.edit(script.TT_DOWN)
+     ms = await update.message.edit(script.TT_UPLD)
      c_time = time.time()
      try:
-     	path = await bot.download_media(message = file, progress=progress_for_pyrogram,progress_args=(script.TT_DOWN,  ms, c_time   ))
+     	path = await bot.download_media(message = file, progress=progress_for_pyrogram,progress_args=(script.TT_UPLD,  ms, c_time   ))
      except Exception as e:
      	await ms.edit(e)
      	return 
