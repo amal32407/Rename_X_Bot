@@ -7,42 +7,31 @@ class script(object):
     DEV_TXT = """<b>☬ ᴛʜᴀɴᴋs ᴛᴏ ᴅᴇᴠᴇʟᴏᴘᴇʀs ☬
 
 ➥ <a href=https://github.com/Devil-Botz>『Dᴇᴠɪʟ࿐Tɢ』</a>
-➥ <a href=https://github.com/Joelkb>  Jᴏᴇʟ ᠰ TɢX</a>
-➥ <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>  PYRO_BOTZ</a> ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇs ᴀᴅᴅᴇᴅ
-➥ <a href=https://github.com/oVo-HxBots>  oVo-HxBots</a> ʙᴀsᴇ ʀᴇᴘᴏ</b>"""
+➥ <a href=https://github.com/Joelkb>  Jᴏᴇʟ ᠰ TɢX</a></b>"""
 
-    ABOUT_TXT = """<b>🍃 ᴍʏ ɴᴀᴍᴇ : {}
-🍃 ᴅᴇᴠ : <a href=https://t.me/Aswin_pm_Bot>『Dᴇᴠɪʟ࿐Tɢ』</a> 
-🍃 ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
-🍃 ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
-🍃 ᴅᴀᴛᴀʙᴀsᴇ : <a href=https://cloud.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a>
-🍃 sᴇʀᴠᴇʀ : <a href=https://studio.mogenius.com>ᴍᴏɢᴇɴɪᴜs</a>
-🍃 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.6.5 [ ʙᴇᴛᴀ ] </b>"""
+    ABOUT_TXT = """<b>➥ ᴍʏ ɴᴀᴍᴇ : {}
+➥ ᴏᴡɴᴇʀ : <a href=https://t.me/COLD_ONEZ>Ꮯᴏʟᴅ_Ꮻɴᴇᴢ</a> 
+➥ ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
+➥ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
+➥ ᴅᴀᴛᴀʙᴀsᴇ : <a href=https://cloud.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a></b>"""
 
     
-    DONATE_TXT = """<b><i> ഞാൻ നിങ്ങളുടെ കയ്യിൽനിന്നും sᴜᴘᴘᴏʀᴛ മാത്രമേ പ്രതീക്ഷിക്കുന്നുള്ളൂ. @cinemala_com1 എന്ന ചാനലിലുള്ള മൂവീ ഗ്രൂപ്പിൽ ᴊᴏɪɴ ചെയ്യ്ത് sᴜᴘᴘᴏʀᴛ ചെയ്യൂ.😊</i></b> """
-
-
     HELP_TXT = """<b><u><i>🎆 HOW TO SET THUMBNAIL 🎆</i></u></b>
   
-〄࿐ /start <b>a bot and send any picture to automatically set thumbnile.</b>
-〄࿐ /delthumb <b>use this command and delete your old thumbnile.</b>
-〄࿐ /viewthumb <b>use this command view your current thumbnile.</b>
+» /start <b>a bot and send any picture to automatically set thumbnile.</b>
+» /delthumb <b>use this command and delete your old thumbnile.</b>
+» /viewthumb <b>use this command view your current thumbnile.</b>
 
  <b><u><i>📝 HOW TO RENAME A FILE 📝</i></u></b>
 
-〄࿐ <b>send any file and click rename option and type new file name and send select [ document, video, audio ]👈 choice this</b>
-
+» <b>send any file and click rename option and type new file name and send select [ document, video]👈 choice this</b>
  <b><u><i>🔖 HOW TO SET CUSTOM CAPTION 🔖</i></u></b>
-〄࿐ /set_caption - set a custom caption
-〄࿐ /see_caption - see your custom caption
-〄࿐ /del_caption - delete custom caption
+» /set_caption - set a custom caption
+» /see_caption - see your custom caption
+» /del_caption - delete custom caption
 Example:- /set_caption 📝 File Name: {filename}
 💾 Size: {filesize}
-⏰ Duration: {duration}
-
-ᴛʜᴀɴᴋꜱ ᴛᴏ ᴘʏʀᴏ ʙᴏᴛᴢ
-ᴄᴜꜱᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ,ꜰᴏʀᴄᴇ ꜱᴜʙ & ꜰʟᴏᴏᴅ ᴀᴅᴅᴇᴅ ꜰʀᴏᴍ ᴘʏʀᴏ ʀᴇɴᴀᴍᴇ ʙᴏᴛ.ᴘʏʀᴏ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴀᴅᴅᴇᴅɪɴ ᴅᴇᴠꜱ"""
+⏰ Duration: {duration}"""
 
 
     PRGS_BAR = """\n <b>
@@ -65,7 +54,7 @@ Example:- /set_caption 📝 File Name: {filename}
 
     EMPTY_CUST = """𝐘𝐨𝐮 𝐝𝐨𝐧𝐭 𝐡𝐚𝐯𝐞 𝐚𝐧𝐲 𝐜𝐮𝐬𝐭𝐨𝐦 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥"""
 
-    TT_DOWN = """𝐓𝐫𝐲𝐢𝐧𝐠 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝..."""
+    TT_DOWN = """𝐓𝐫𝐲𝐢𝐧𝐠 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝▪️▪️▪️"""
 
     PLZ_ETR_NFIL = """𝐏𝐥𝐞𝐚𝐬𝐞 𝐞𝐧𝐭𝐞𝐫 𝐭𝐡𝐞 𝐧𝐞𝐰 𝐟𝐢𝐥𝐞𝐧𝐚𝐦𝐞..."""
 
