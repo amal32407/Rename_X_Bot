@@ -5,6 +5,7 @@ class script(object):
 
 
     DEV_TXT = """<b>➥ <a href=https://github.com/Devil-Botz>『Dᴇᴠɪʟ࿐Tɢ』</a>
+
 ➥ <a href=https://github.com/Joelkb>  Jᴏᴇʟ ᠰ TɢX</a></b>"""
 
     ABOUT_TXT = """<b>➥ ᴍʏ ɴᴀᴍᴇ : {}
