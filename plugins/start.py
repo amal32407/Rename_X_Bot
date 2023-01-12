@@ -17,9 +17,6 @@ async def start(client, message):
     button=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("⚔ ᴅᴇᴠs ⚔", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/Elsasupportgp'),
-                InlineKeyboardButton('〄 ᴅᴏɴᴀᴛᴇ 〄', callback_data='donate')
-                ],[
                 InlineKeyboardButton('〄 ᴀʙᴏᴜᴛ 〄', callback_data='about'),
                 InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help')
                 ]]
@@ -47,9 +44,6 @@ async def cb_handler(client, query: CallbackQuery):
             text=(script.START_TXT.format(user.mention)),
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("⚔ ᴅᴇᴠs ⚔", callback_data='dev')                
-                ],[
-                InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/Elsasupportgp'),
-                InlineKeyboardButton('〄 ᴅᴏɴᴀᴛᴇ 〄', callback_data='donate')
                 ],[
                 InlineKeyboardButton('〄 ᴀʙᴏᴜᴛ 〄', callback_data='about'),
                 InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help')
@@ -80,7 +74,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=script.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[    
-               InlineKeyboardButton("〄 sᴏᴜʀᴄᴇ 〄", url="https://github.com/Devil-Botz/RenameBot") ],[      
+               InlineKeyboardButton("〄 ꜱᴇʀɪᴇꜱ ɢʀᴏᴜᴩ 〄", url="https://t.me/COLD_X_SERIES") ],[      
                InlineKeyboardButton("🗑️ᴄʟᴏsᴇ🗑️", callback_data = "close"),
                InlineKeyboardButton("⌫ʙᴀᴄᴋ☽", callback_data = "start")
                ]]
