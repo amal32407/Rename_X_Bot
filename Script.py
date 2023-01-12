@@ -10,28 +10,30 @@ class script(object):
 ➥ <a href=https://github.com/Joelkb>  Jᴏᴇʟ ᠰ TɢX</a></b>"""
 
     ABOUT_TXT = """<b>➥ ᴍʏ ɴᴀᴍᴇ : {}
-➥ ᴏᴡɴᴇʀ : <a href=https://t.me/COLD_ONEZ>Ꮯᴏʟᴅ_Ꮻɴᴇᴢ</a> 
-➥ ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
-➥ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
-➥ ᴅᴀᴛᴀʙᴀsᴇ : <a href=https://cloud.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a></b>"""
+
+➥ ᴏᴡɴᴇʀ : <a href=https://t.me/COLD_ONEZ>Ꮯᴏʟᴅ_Ꮻɴᴇᴢ</a></b>"""
 
     
-    HELP_TXT = """<b><u><i>🎆 HOW TO SET THUMBNAIL 🎆</i></u></b>
+    HELP_TXT = """🎆<b><u> HOW TO SET THUMBNAIL </u></b>🎆
   
-» /start <b>a bot and send any picture to automatically set thumbnile.</b>
-» /delthumb <b>use this command and delete your old thumbnile.</b>
-» /viewthumb <b>use this command view your current thumbnile.</b>
+» /start A bot and send any picture to automatically set thumbnail.
+» /delthumb Use this command and delete your old thumbnile.
+» /viewthumb Use this command view your current thumbnile.
 
- <b><u><i>📝 HOW TO RENAME A FILE 📝</i></u></b>
+ <b><u>📝 HOW TO RENAME A FILE 📝</u></b>
 
-» <b>send any file and click rename option and type new file name and send select [ document, video]👈 choice this</b>
- <b><u><i>🔖 HOW TO SET CUSTOM CAPTION 🔖</i></u></b>
+» send any file and click Rename option and type new file name and select [ document] or [video]
+
+ <b><u>📝 HOW TO SET CUSTOM CAPTION 📝</u></b>
+
 » /set_caption - set a custom caption
 » /see_caption - see your custom caption
 » /del_caption - delete custom caption
-Example:- /set_caption 📝 File Name: {filename}
-💾 Size: {filesize}
-⏰ Duration: {duration}"""
+
+<b><u>📝 FILLINGS 📝</u></b>
+» File Name: {filename}
+» Size: {filesize}
+» Duration: {duration}"""
 
 
     PRGS_BAR = """\n <b>
