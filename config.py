@@ -14,7 +14,7 @@ DB_NAME = os.environ.get("DB_NAME", "my")
 #Your Mongo DB URL Obtained From mongodb.com
 DB_URL = os.environ.get("DB_URL", "")
 
-START_PIC = (os.environ.get("START_PIC", "https://telegra.ph/file/0e3738d56ff92e363a1d9.jpg https://telegra.ph/file/a52e97c3371d6197e7723.jpg https://telegra.ph/file/da8e1ab9f84ba60494451.jpg https://telegra.ph/file/cfa28e7e2fe19adc9688c.jpg https://telegra.ph/file/be339f05202e87a05515c.jpg https://telegra.ph/file/45c1e617e959edc7f3aee.jpg https://telegra.ph/file/f0e48c64e7ee4ee304407.jpg https://telegra.ph/file/ac16ec543b2fb84be97d2.jpg https://telegra.ph/file/4f1303bf89fd84843f172.jpg")).split()
+START_PIC = (os.environ.get("START_PIC", "https://telegra.ph/file/6866d150c688697901044.jpg https://telegra.ph/file/a2fa6177e5e5dbee6ab58.jpg https://telegra.ph/file/2252e40db931835a311fc.jpg https://telegra.ph/file/76b495e4f484b918e4429.jpg https://telegra.ph/file/37168ba6fe81c145ca294.jpg https://telegra.ph/file/262a830630e0e12deac6e.jpg https://telegra.ph/file/9599d61d4316c873cc8b0.jpg https://telegra.ph/file/701b28453b269a10219d4.jpg https://telegra.ph/file/17a3e2967853eac5efbe4.jpg https://telegra.ph/file/734024f384f2d4fe7ffed.jpg https://telegra.ph/file/65fb8c4d80d970856fd1a.jpg https://telegra.ph/file/8b5abab313ef932e1ebdf.jpg https://telegra.ph/file/58da22073a20edff1bbf3.jpg https://telegra.ph/file/c8e9d1e32a7bf7c2ccc2b.jpg https://telegra.ph/file/5a83b7562e6c585101f68.jpg https://telegra.ph/file/b9f16879f6fb8a25910f7.jpg https://telegra.ph/file/6b24b2ebc7a55c59d3930.jpg https://telegra.ph/file/8f23d4392fd4a5b011b07.jpg https://telegra.ph/file/c7e2e616853185375dcdd.jpg https://telegra.ph/file/b32bb4a593e5950f539cc.jpg")).split()
 
 PORT = os.environ.get("PORT", "8080")
 
