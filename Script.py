@@ -31,9 +31,9 @@ class script(object):
 
   📝<b><u> FILLINGS </u></b>📝
 
-» File Name: {filename}
-» Size: {filesize}
-» Duration: {duration}"""
+» File Name: <code>{filename}</code>
+» Size: <code>{filesize}</code>
+» Duration: <code>{duration}</code>"""
 
 
     PRGS_BAR = """\n <b>
