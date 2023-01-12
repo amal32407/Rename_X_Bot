@@ -12,23 +12,24 @@ class script(object):
 ➥ ᴏᴡɴᴇʀ : <a href=https://t.me/COLD_ONEZ>Ꮯᴏʟᴅ_Ꮻɴᴇᴢ</a></b>"""
 
     
-    HELP_TXT = """🎆<b><u> HOW TO SET THUMBNAIL </u></b>🎆
+    HELP_TXT = """     🎆<b><u>HOW TO SET THUMBNAIL </u></b>🎆
   
 » /start A bot and send any picture to automatically set thumbnail.
 » /delthumb Use this command and delete your old thumbnile.
 » /viewthumb Use this command view your current thumbnile.
 
- <b><u>📝 HOW TO RENAME A FILE 📝</u></b>
+   📝<b><u> HOW TO RENAME A FILE </u></b>📝
 
 » send any file and click Rename option and type new file name and select [ document] or [video]
 
- <b><u>📝 HOW TO SET CUSTOM CAPTION 📝</u></b>
+ 📝<b><u> HOW TO SET CUSTOM CAPTION </u></b>📝
 
 » /set_caption - set a custom caption
 » /see_caption - see your custom caption
 » /del_caption - delete custom caption
 
-<b><u>📝 FILLINGS 📝</u></b>
+          📝<b><u> FILLINGS </u></b>📝
+
 » File Name: {filename}
 » Size: {filesize}
 » Duration: {duration}"""
