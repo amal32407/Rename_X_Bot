@@ -11,31 +11,31 @@
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": ""
+            "value": "29487476"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": ""
+            "value": "f3c3a572ecb00bcd9ba608f21a249218"
         },
         "TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "5944960949:AAFm85Fuk1wpucoFlRU8vCTvl6TVfplMu3I"
         },
         "ADMIN": {
-            "description":""
+            "description":"5592844994 5329179170 730103880"
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": ""
+            "value": "mongodb+srv://C_M_D:cold_x_movies@coldmoviesbot.ig0bwq1.mongodb.net/?retryWrites=true&w=majority"
         },
         "DB_NAME":{ 
                "description":"Your Mongo DB Database Name ",
-                "value": "my",
+                "value": "coldmoviesbot",
                 "required": false
         },
         "FORCE_SUB":{ 
                "description":"Channel ID ",
-                "value": "",
+                "value": "-1001899955138",
                 
         },
         "START_IMG":{
