@@ -3,12 +3,13 @@ import re
 
 id_pattern = re.compile(r'^.\d+$')
 # get a token from @BotFather
-TOKEN = os.environ.get("TOKEN", "5944960949:AAFm85Fuk1wpucoFlRU8vCTvl6TVfplMu3I")
+TOKEN = os.environ.get("TOKEN", "5899318620:AAGHaE0a_dwNGfY1ka63abod10RkttBfDN8")
 # The Telegram API things
 APP_ID = int(os.environ.get("APP_ID", "29487476"))
 API_HASH = os.environ.get("API_HASH", "f3c3a572ecb00bcd9ba608f21a249218")
 #Array to store users who are authorized to use the bot
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5592844994 5329179170 730103880').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5592844994 730103880').split()]
+AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5329179170").split())
 #Your Mongo DB Database Name
 DB_NAME = os.environ.get("DB_NAME", "coldmoviesbot")
 #Your Mongo DB URL Obtained From mongodb.com
