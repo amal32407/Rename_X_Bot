@@ -9,7 +9,7 @@ from helper.database import db
 from config import START_PIC, FLOOD, ADMIN, AUTH_USERS
 
 
-@Client.on_message(filters.private & filters.user(ADMIN+AUTH_USERS) & filters.command(["start"]))
+@Client.on_message(filters.private & filters.command(["start"]))
 async def start(client, message):    
     user = message.from_user
     if not await db.is_user_exist(user.id):
