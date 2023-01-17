@@ -6,7 +6,7 @@ import humanize
 import random
 from Script import script
 from helper.database import db
-from config import START_PIC, FLOOD, ADMIN 
+from config import START_PIC, FLOOD, ADMIN, AUTH_USERS
 
 
 @Client.on_message(filters.private & filters.command(["start"]))
