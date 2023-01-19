@@ -6,7 +6,7 @@ import humanize
 import random
 from Script import script
 from helper.database import db
-from config import START_PIC, FLOOD, ADMIN, AUTH_USERS
+from config import START_PIC, FLOOD, ADMIN
 
 
 @Client.on_message(filters.private & filters.command(["start"]))
@@ -106,7 +106,7 @@ async def log_file(client, message):
         await message.reply_text(f"Error:\n`{e}`")
 
 
-@Client.on_message(filters.private & filters.user(ADMIN+AUTH_USERS) & (filters.document | filters.audio | filters.video))
+@Client.on_message(filters.private & filters.user(ADMIN) & (filters.document | filters.audio | filters.video))
 async def rename_start(client, message):
     file = getattr(message, message.media.value)
     filename = file.file_name
