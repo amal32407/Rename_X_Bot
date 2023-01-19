@@ -9,7 +9,6 @@ APP_ID = int(os.environ.get("APP_ID", "29487476"))
 API_HASH = os.environ.get("API_HASH", "f3c3a572ecb00bcd9ba608f21a249218")
 #Array to store users who are authorized to use the bot
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5592844994 730103880').split()]
-AUTH_USERS = [int(auth_users) if id_pattern.search(auth_users) else auth_users for auth_users in os.environ.get('AUTH_USERS', '5329179170').split()]
 #Your Mongo DB Database Name
 DB_NAME = os.environ.get("DB_NAME", "coldmoviesbot")
 #Your Mongo DB URL Obtained From mongodb.com
